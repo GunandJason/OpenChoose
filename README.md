@@ -1,6 +1,6 @@
-# OpenChoose（PPTChooser）
+# OpenChoose
 
-双击 `.ppt` / `.pptx` 时弹出选择窗口，自己决定用 **PowerPoint / WPS / LibreOffice / 其它程序** 打开。
+目前仅支持双击 `.ppt` / `.pptx` 时弹出选择窗口，自己决定用 **PowerPoint / WPS / LibreOffice / 其它程序** 打开。
 
 * 程序名：`OpenChoose`
 * 可执行文件：`PPTChooser.exe`（基于 **.NET Framework 4.5**）
