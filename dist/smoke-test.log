@@ -1,0 +1,14 @@
+﻿=== OpenChoose 冒烟测试 2026-09-27 19:58:15 ===
+程序: C:\Users\Admin\Desktop\OpenChoose\src\PPTChooser\bin\Release\PPTChooser.exe
+[PASS] 准备测试环境 -> C:\Users\Admin\Desktop\OpenChoose\dist\ArgEcho.exe / C:\Users\Admin\Desktop\OpenChoose\dist\WinList.exe
+[PASS] 0) 程序图标可加载（鼠标指针图标） -> 32x32
+[PASS] 1) 注册文件关联 (--register) -> exit=0; OpenWithProgids=True; OpenWithList=True; RegisteredApplications=Software\OpenChoose\Capabilities
+[PASS] 2) 设为默认打开方式 (--setdefault)（尊重系统 UserChoice） -> exit=0; .pptx 默认 ProgID=; UserChoice=OpenChoose.PPT
+[PASS] 3a) 写入开机自启动项 (--enable-autostart) -> exit=0; Run 值="C:\Users\Admin\Desktop\OpenChoose\src\PPTChooser\bin\Release\PPTChooser.exe" --startup
+[PASS] 3b) 开机自启动后托盘运行 (--startup) -> 托盘进程数=1; 窗口=hwnd=3017654 visible=False rect=0,0,328,88 client=296x0 class=WindowsForms10.Window.0.app.0.141b42a_r6_ad1 title=[] | hwnd=13110324 visible=False rect=0,0,1,1 client=1x1 class=GDI+ Hook Window Class title=[GDI+ Window (PPTChooser.exe)] | hwnd=6556620 visible=False rect=0,0,0,0 client=0x0 class=.NET-BroadcastEventWindow.4.0.0.0.141b42a.0 title=[.NET-BroadcastEventWindow.4.0.0.0.141b42a.0] | hwnd=20384410 visible=False rect=0,0,0,0 client=0x0 class=IME title=[Default IME] | hwnd=5704760 visible=False rect=0,0,0,0 client=0x0 class=IME title=[Default IME] | 
+[PASS] 4) 弹出“选择打开 PPT 的程序”窗口 -> 进程存活=True; 客户区=1050x840（截图 shot-native.png）
+[PASS] 4b) 进程 DPI 感知（0=不感知 1=系统 2=每显示器） -> awareness=1
+[PASS] 4c) 高 DPI 布局缩放（--scale=1.5 / 2.0 客户区按比例放大） -> 150% 实测比例=1.5; 200% 实测比例=2
+[PASS] 5) 直接启动 xxx.exe "文件.pptx"（含空格/中文路径） -> exit=0; count=1 | arg[0]=C:\Users\Admin\Desktop\OpenChoose\dist\test-smoke\my demo 示例.pptx | exists=True
+[PASS] 6) 取消关联并关闭自启动 (--unregister / --disable-autostart) -> exit=0/0; .pptx 默认 ProgID=; Run 值=
+=== 结果: 全部通过 ===

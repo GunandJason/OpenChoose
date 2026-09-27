@@ -1,0 +1,22 @@
+﻿=== OpenChoose MSI 检查 2026-09-27 19:58:36 ===
+安装包: C:\Users\Admin\Desktop\OpenChoose\dist\OpenChoose.msi
+msiexec 日志: C:\Users\Admin\Desktop\OpenChoose\dist\msi-install.log
+[PASS] 1) 静默安装 -> exit=0
+[PASS] 2) 程序文件已安装 -> C:\Users\Admin\AppData\Local\OpenChoose\PPTChooser.exe
+[PASS] 3) ProgID 打开命令 -> "C:\Users\Admin\AppData\Local\OpenChoose\PPTChooser.exe" "%1"
+[PASS] 4) .pptx 默认指向本程序 -> .pptx=OpenChoose.PPT
+[PASS] 5) 加入“打开方式”列表 -> OpenWithProgids=True; SupportedTypes=True; RegisteredApplications=Software\OpenChoose\Capabilities
+[PASS] 6) 开机自启动项 -> "C:\Users\Admin\AppData\Local\OpenChoose\PPTChooser.exe" --startup
+[PASS] 7) 开始菜单快捷方式 -> OpenChoose（选择打开 PPT 的程序）.lnk / 设为默认打开方式.lnk / 诊断报告.lnk
+[PASS] 8) 安装后的程序可运行（诊断报告） -> 报告: C:\Users\Admin\Desktop\OpenChoose\dist\msi-selftest.txt
+[PASS] 9) 控制面板卸载项 -> 版本=1.0.0.0
+msiexec 日志: C:\Users\Admin\Desktop\OpenChoose\dist\msi-uninstall.log
+[PASS] 10) 静默卸载 -> exit=0
+[PASS] 11) 程序文件已删除 -> C:\Users\Admin\AppData\Local\OpenChoose\PPTChooser.exe
+[PASS] 12) ProgID 已清理 -> (无)
+[PASS] 13) .pptx 默认值已恢复 -> .pptx=
+[PASS] 14) 自启动项已清理 -> (无)
+[PASS] 15) 开始菜单已清理 -> C:\Users\Admin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\OpenChoose
+[PASS] 16) 控制面板卸载项已清理 -> 条目数=0
+[PASS] 17) 安装目录已清理 -> C:\Users\Admin\AppData\Local\OpenChoose
+=== 结果: 全部通过 ===

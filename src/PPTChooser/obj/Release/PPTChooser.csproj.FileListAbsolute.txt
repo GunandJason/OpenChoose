@@ -1,0 +1,8 @@
+C:\Users\Admin\Desktop\OpenChoose\src\PPTChooser\bin\Release\PPTChooser.exe.config
+C:\Users\Admin\Desktop\OpenChoose\src\PPTChooser\bin\Release\PPTChooser.exe
+C:\Users\Admin\Desktop\OpenChoose\src\PPTChooser\obj\Release\PPTChooser.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\OpenChoose\src\PPTChooser\obj\Release\PPTChooser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\OpenChoose\src\PPTChooser\obj\Release\PPTChooser.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\OpenChoose\src\PPTChooser\obj\Release\PPTChooser.AssemblyInfo.cs
+C:\Users\Admin\Desktop\OpenChoose\src\PPTChooser\obj\Release\PPTChooser.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\OpenChoose\src\PPTChooser\obj\Release\PPTChooser.exe
